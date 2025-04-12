@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdf6f0;
+  color: #333;
+}
+header {
+  background: #d87c6e;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+.gallery, .store, .contact {
+  padding: 40px 20px;
+  text-align: center;
+}
+.slider {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.slide {
+  width: 100%;
+  display: none;
+}
+.slide.active {
+  display: block;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
+button {
+  background: #d87c6e;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
